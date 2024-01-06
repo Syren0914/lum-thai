@@ -205,6 +205,16 @@ img{
     border-radius: 0 0 1rem 1rem;
     z-index: var(--z-fixed);
   }
+  .launch-time{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    
+
+  }
+  .promotion{
+    object-fit: contain;
+  }
 }
 
 .nav__item{
@@ -534,7 +544,8 @@ img{
 @media screen and (min-width: 576px){
   .home__container,
   .about__container,
-  .app__container{
+  .app__container,
+  .countdown__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
@@ -557,6 +568,7 @@ img{
   .contact__button{
     justify-self: center;
   }
+  
   
 }
 
@@ -691,91 +703,6 @@ img{
   cursor: pointer;
 }
 
-/* Media Queries */
 
-/* Large Screens (min-width: 960px) */
-@media screen and (min-width: 960px) {
-  
-
-  .launch-time {
-    margin-top: 100px; /* Example margin for large screens */
-  }
-
-  .promotion {
-    width: 600px; /* Example width for large screens */
-  }
-
-  #offer {
-    font-size: 20px; /* Example font size for large screens */
-  }
-}
-
-/* Medium Screens (min-width: 768px) */
-@media screen and (min-width: 768px) {
-  
-
-  .launch-time {
-    margin-top: 80px; /* Example margin for medium screens */
-  }
-
-  .promotion {
-    width: 500px; /* Example width for medium screens */
-  }
-
-  #offer {
-    font-size: 18px; /* Example font size for medium screens */
-  }
-}
-
-/* Small Screens (min-width: 576px) */
-@media screen and (min-width: 576px) {
-  
-
-  .launch-time {
-    margin-top: 60px; /* Example margin for small screens */
-  }
-
-  .promotion {
-    width: 400px; /* Example width for small screens */
-  }
-
-  #offer {
-    font-size: 16px; /* Example font size for small screens */
-  }
-}
-
-/* Maximum Width (max-width: 768px) */
-@media screen and (max-width: 768px) {
-  
-
-  .launch-time {
-    margin-top: 70px; /* Example margin for screens with max-width: 768px */
-  }
-
-  .promotion {
-    width: 450px; /* Example width for screens with max-width: 768px */
-  }
-
-  #offer {
-    font-size: 17px; /* Example font size for screens with max-width: 768px */
-  }
-}
-
-/* Minimum Height (min-height: 721px) */
-@media screen and (min-height: 721px) {
-  
-
-  .launch-time {
-    margin-top: 90px; /* Example margin for screens with min-height: 721px */
-  }
-
-  .promotion {
-    width: 550px; /* Example width for screens with min-height: 721px */
-  }
-
-  #offer {
-    font-size: 19px; /* Example font size for screens with min-height: 721px */
-  }
-}
 
 
